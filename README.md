@@ -1,25 +1,21 @@
 
-# FullCalendar 13 Angular Example Project
+# FullCalendar 13 Angular 
 
-This is a fully-buildable example project for FullCalendar and Angular. It was initially set up with the `ng new` command of the [Angular CLI], but with lots of stuff stripped out including testing and linting. For a complete walkthrough, read the [FullCalendar Angular Docs &raquo;](https://fullcalendar.io/docs/angular)
+Este es un proyecto de ejemplo totalmente construible para FullCalendar y Angular.
 
-## Installation
+
+## installacion de librerias
 
 ```bash
-git clone https://github.com/fullcalendar/fullcalendar-example-projects.git
-cd fullcalendar-example-projects/angular
 npm install
 ```
 
-## Build commands
+## comandos
 
 ```bash
+ng serve
 npm run build # build to a directory
 npm run start # continously build, as a server
 ```
 
-After running the `npm run start` command, you will be given a localhost URL that can be visited in a browser.
-
-## Workarounds
-
-Please see `.browserslistrc` for a workaround for [this bug](https://github.com/angular/angular-cli/issues/22606).
+Después de ejecutar el comando `ng serve`, se le proporcionará una URL de host local que se puede visitar en un navegador.
